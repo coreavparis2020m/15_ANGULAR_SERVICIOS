@@ -18,4 +18,8 @@ export class ClientesService {
         return this.clientes;
     }
 
+    postCliente(cliente) {
+        this.clientes.push(cliente);
+    }
+
 }
