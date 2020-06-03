@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #718096;
+    background-color: #fafafa;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #008489;
+    margin-bottom: 1rem;
+}
+
+.card {
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 720px;
+}
+
+ul {
+    margin: 2rem;
+}    
+
+ul li {
+        font-size: 1.8rem;
+        padding: 0.5rem;
+}
